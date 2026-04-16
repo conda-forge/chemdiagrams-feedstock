@@ -1,5 +1,5 @@
 {% set name = "chemdiagrams" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0af8d811bf405fa0c3109d58cf36657c91ebae566e5fb9886e6c2571f6c5732d
+  sha256: ec42524b464921f9a062dc416b2bca6b7e70a69d7581ba6c9049a2b76081399c
 
 build:
   noarch: python
