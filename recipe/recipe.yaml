@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: chemdiagrams
-  version: "0.5.4"
+  version: "0.5.5"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: bbc9075f4174c287d001ed4993d14a9490165f32324d218ac51f452016201701
+  sha256: 8aeffdc353fd86dc45ce5ac49a96f971ad084e8a6c995523917beaaa9b855813
 
 build:
   number: 0
